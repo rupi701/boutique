@@ -4,7 +4,7 @@ FROM python:3.10-slim
 # Set the working directory
 WORKDIR /app
 
-# Copy the application code to the working directory
+# Copy the application code to the current working directory
 COPY . /app
 
 # Install the required Python dependencies
